@@ -28,7 +28,7 @@ app.get('/zbroji', (req, res)=>
         let rezultat=validacija.broj1+validacija.broj2;
         res.json({zbroj:rezultat});
     }
-})
+});
 app.get('/oduzmi', (req, res)=>
 {
     const validacija=provjeri(req);
@@ -41,7 +41,7 @@ app.get('/oduzmi', (req, res)=>
         let rezultat=validacija.broj1-validacija.broj2;
         res.json({oduzmi:rezultat});
     }
-})
+});
 app.get('/pomnozi', (req, res)=>
 {
     const validacija=provjeri(req);
@@ -54,7 +54,7 @@ app.get('/pomnozi', (req, res)=>
         let rezultat=validacija.broj1*validacija.broj2;
         res.json({pomnozi:rezultat});
     }
-})
+});
 app.get('/dijeli', (req, res)=>
 {
     const validacija=provjeri(req);
