@@ -11,9 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "axios": "^1.21.1",
     "express": "^5.3.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eggy02/kvadrat1011.git"
